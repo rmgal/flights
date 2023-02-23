@@ -1,16 +1,16 @@
-How to run:
+**How to run:**
 1. Download the files from the repository.
 2. Using your favorite IDE, load the maven project then run the following commands:
 	- mvn clean install
 	- mvn clean spring-boot:run
 
-Environment requirements:
+**Environment requirements:**
 
 - Maven
 - Java JDK 11+
 - Java JRE 19
 
-API Endpoints:
+**API Endpoints:**
 
 /api/flights [GET/POST]
 

@@ -13,4 +13,5 @@ Environment requirements:
 API Endpoints:
 
 /api/flights [GET/POST]
+
 /api/flights/{airlineCode} [GET]

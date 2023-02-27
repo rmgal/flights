@@ -1,5 +1,5 @@
 How to run:
-1. Download the files from the repository.
+1. Clone or download the files from the repository.
 2. Using your favorite IDE, load the maven project then run the following commands:
 	- mvn clean install
 	- mvn clean spring-boot:run
@@ -12,5 +12,5 @@ Environment requirements:
 
 API Endpoints:
 
-/api/flights [GET/POST]
-/api/flights/{airlineCode} [GET]
+/api/v1/flights [GET/POST]
+/api/v1/flights/{airlineCode} [GET]

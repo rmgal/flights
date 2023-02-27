@@ -16,13 +16,16 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name="flight", schema="airport")
+@Table(name="flight")
 public class Flight {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")
-	long flightNumber;
+	long id;
+	
+	@Column(name="flight_number", nullable=false, unique=true)
+	String flightNumber;
 	
 	@Column(name="departure_port")
 	String departurePort;

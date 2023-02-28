@@ -18,6 +18,7 @@ public class FlightRepositoryTest {
 	@Test
 	void findFlightsByAirlineCode()
 	{
+		// Using data.sql in 'src/test/resources'
 		List<Flight> flights = flightRepository.findByAirlineCode("AA");
 		assertEquals(1, flights.size());
 		assertEquals("AA999", flights.get(0).getFlightNumber());

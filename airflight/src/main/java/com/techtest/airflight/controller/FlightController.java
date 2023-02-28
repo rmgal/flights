@@ -16,7 +16,7 @@ import com.techtest.airflight.model.Flight;
 import com.techtest.airflight.service.FlightService;
 
 @RestController
-@RequestMapping("/api/v1/")
+@RequestMapping("/api/v1")
 public class FlightController {
 	@Autowired
 	private FlightService flightService;
